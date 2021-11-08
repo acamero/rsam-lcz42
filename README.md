@@ -34,6 +34,6 @@ To start from scratch, please follow the steps:
 
 3. Install *Jupyterlab* `pip install jupyterlab`, and start it `jupyter-lab` (a new browser window will open);
 
-4. Download the data from **LINK**, and copy to the data folder `rsam-lcz42-2021/data`;
+4. Download the data from [LINK](https://syncandshare.lrz.de/getlink/fi3eWuN4bgAnaExzushQUahm/subset_lcz42.h5), and copy to the data folder `rsam-lcz42-2021/data`;
 
 5. Open the notebook `lcz42_intro.ipynb`, and follow the instructions.
