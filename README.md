@@ -28,9 +28,9 @@ The outcome of So2Sat will be the first and unique global and consistent spatial
 
 To start from scratch, please follow the steps:
 
-1. Get the code `git clone https://github.com/acamero/rsam-lcz42-2021.git`;
+1. Get the code `git clone https://github.com/acamero/rsam-lcz42-2021.git`, and go to the *new* folder (`cd rsam-lcz42-2021`);
 
-2. Create a virtual environemnt (**Recommended**) `virtualenv --python=python3 rsam-lcz42-2021/venv`, and activate it `source rsam-lcz42-2021/venv/bin/activate`;
+2. Create a virtual environemnt (**Recommended**) `virtualenv --python=python3.8 venv`, and activate it `source venv/bin/activate`;
 
 3. Install *Jupyterlab* `pip install jupyterlab`, and start it `jupyter-lab` (a new browser window will open);
 
