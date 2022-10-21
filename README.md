@@ -32,11 +32,11 @@ To start from scratch, please follow the steps:
 
 2. Create a virtual environemnt (**Recommended**) `virtualenv --python=python3.8 venv`, and activate it `source venv/bin/activate`;
 
-3. Install *Jupyterlab* `pip install jupyterlab`, and start it `jupyter-lab` (a new browser window will open);
+3. Install *Jupyterlab* `pip install jupyterlab`;
 
 4. Download the data from [LINK](https://syncandshare.lrz.de/getlink/fi3eWuN4bgAnaExzushQUahm/subset_lcz42.h5), and copy to the data folder `rsam-lcz42-2021/data`;
 
-5. Open the notebook `lcz42_intro.ipynb`, and follow the instructions.
+5. Start *Jupyterlab* `jupyter-lab` (a new browser window will open), and open the notebook `lcz42_intro.ipynb`, and follow the instructions.
 
 **Note**: Please, be sure to complete steps 1 to 4 before the lecture, and to install all the required packages, either by running the first block of code of the notebook or by executing `pip install -r requirements`. Then, check that everything is ready by running `python check.py`. If the required packages are installed and the data is in place, you will get an `OK`.
 
