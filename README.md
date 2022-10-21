@@ -37,3 +37,6 @@ To start from scratch, please follow the steps:
 4. Download the data from [LINK](https://syncandshare.lrz.de/getlink/fi3eWuN4bgAnaExzushQUahm/subset_lcz42.h5), and copy to the data folder `rsam-lcz42-2021/data`;
 
 5. Open the notebook `lcz42_intro.ipynb`, and follow the instructions.
+
+**Note**: Please, be sure to complete steps 1 to 4 before the lecture, and to install all the required packages, either by running the first block of code of the notebook or by executing `pip install -r requirements`. Then, check that everything is ready by running `python check.py`. If the required packages are installed and the data is in place, you will get an `OK`.
+
