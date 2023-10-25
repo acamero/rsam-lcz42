@@ -28,15 +28,24 @@ The outcome of So2Sat will be the first and unique global and consistent spatial
 
 To start from scratch, please follow the steps:
 
-1. Get the code `git clone https://github.com/acamero/rsam-lcz42-2021.git`, and go to the *new* folder (`cd rsam-lcz42-2021`);
+1. Check that you have `python` installed in your system. Open a terminal (*power shell* in Windows), and then type:
 
-2. Create a virtual environemnt (**Recommended**) `virtualenv --python=python3.8 venv`, and activate it `source venv/bin/activate`;
+```
+python --version
+```
 
-3. Install *Jupyterlab* `pip install jupyterlab`;
+You should see something like `Python 3.8.0`. This tutorial requires `python >= 3.8`. If you don't have python installed, visit [python.org](https://www.python.org/downloads/), and follow the instructions.
 
-4. Download the data from [LINK](https://syncandshare.lrz.de/getlink/fi3eWuN4bgAnaExzushQUahm/subset_lcz42.h5), and copy to the data folder `rsam-lcz42-2021/data`;
 
-5. Start *Jupyterlab* `jupyter-lab` (a new browser window will open), and open the notebook `lcz42_intro.ipynb`, and follow the instructions.
+2. Get the code `git clone https://github.com/acamero/rsam-lcz42-2021.git`, and go to the *new* folder (`cd rsam-lcz42-2021`);
 
-**Note**: Please, be sure to complete steps 1 to 4 before the lecture, and to install all the required packages, either by running the first block of code of the notebook or by executing `pip install -r requirements`. Then, check that everything is ready by running `python check.py`. If the required packages are installed and the data is in place, you will get an `OK`.
+3. (**Recommended**) Create a virtual environemnt `virtualenv --python=python3.8 venv`, and activate it `source venv/bin/activate`;
+
+4. Install *Jupyterlab* `pip install jupyterlab`;
+
+5. Download the data from [link](https://syncandshare.lrz.de/getlink/fi3eWuN4bgAnaExzushQUahm/subset_lcz42.h5), and copy to the data folder `rsam-lcz42-2021/data`;
+
+6. Start *Jupyterlab* `jupyter-lab` (a new browser window will open), open the *notebook* `lcz42_intro.ipynb`, and follow the instructions.
+
+**Note**: Please, be sure to complete steps 1 to 5 before the lecture, and to install all the required packages, either by running the first block of code of the notebook, or by executing `pip install -r requirements.txt`. Then, check that everything is ready by running `python check.py`. If the required packages are installed and the data is in place, you will get an `OK`.
 
