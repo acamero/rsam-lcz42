@@ -37,7 +37,7 @@ python --version
 You should see something like `Python 3.8.0`. This tutorial has been tested on `python == 3.10.12`. If you don't have python installed, visit [python.org](https://www.python.org/downloads/), and follow the instructions.
 
 
-2. Get the code `git clone https://github.com/acamero/rsam-lcz42-2021.git`, and go to the *new* folder (`cd rsam-lcz42`);
+2. Get the code `git clone https://github.com/acamero/rsam-lcz42.git`, and go to the *new* folder (`cd rsam-lcz42`);
 
 3. (**Recommended**) Create a virtual environemnt `virtualenv --python=python3.8 venv`, and activate it `source venv/bin/activate`;
 
